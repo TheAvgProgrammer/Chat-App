@@ -1,0 +1,51 @@
+.login-div {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height for vertical centering */
+    
+}
+
+.login-input:focus {
+    box-shadow: 0 0 5px rgba(155, 185, 216, 0.5); /* Add a slight glow */
+}
+
+.login-input {
+    width: 300px; /* Consistent width */
+    padding: 10px; /* Padding inside the input field */
+    margin: 10px 0; /* Vertical spacing between fields */
+    font-size: 16px; /* Readable text */
+    border-radius: 10px; /* Rounded corners */
+    outline: none; /* Remove focus outline */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+
+.login-button {
+    width: 300px; /* Same width as inputs */
+    padding: 10px; /* Padding for the button */
+    margin: 15px 0; /* Spacing above and below */
+    font-size: 16px; /* Button text size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.login-button:hover {
+    background-color: #2e3034; /* Darker blue on hover */
+}
+
+.signup-bottom-div{
+    display: flex;
+    align-items: center;
+}
+
+.signup-link{
+    cursor: pointer;
+}
+
+.signup-button{
+    margin-top: 20px;
+}
